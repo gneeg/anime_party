@@ -4,8 +4,6 @@
 function BerserkersCall( keys )
 	local caster = keys.caster
 	local target = keys.target
-	EmitSoundOn( "vitalik_impact", self:GetCaster() )
-
 	-- Clear the force attack target
 	target:SetForceAttackTarget(nil)
 
