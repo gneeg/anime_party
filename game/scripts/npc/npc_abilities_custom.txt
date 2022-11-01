@@ -10,9 +10,14 @@
 #base "../vscripts/heroes/vitalik/naorat.txt"
 #base "../vscripts/heroes/vitalik/ne_pidor.txt"
 #base "../vscripts/heroes/vitalik/oskorblenie.txt"
+<<<<<<< Updated upstream
 
 //=================================================================================================================
 // HERO: relt
 //=================================================================================================================
 #base "../vscripts/heroes/relt/chill.txt"
 #base "../vscripts/heroes/relt/pencil.txt"
+=======
+#base "../vscripts/heroes/dristch/bistro_begat.txt"
+#base "../vscripts/heroes/dristch/soundpad.txt"
+>>>>>>> Stashed changes
