@@ -4,7 +4,8 @@
 	// Hoodwink: Sharpshooter (Lua version)
 	//=================================================================================================================
 	"relt_pencil"
-	{"BaseClass"						"ability_lua"
+	{
+		"BaseClass"						"ability_lua"
 		"ScriptFile"					"heroes/relt/pencil"
 		"AbilityTextureName"			"relt/pencil"
 		"FightRecapLevel"				"1"
