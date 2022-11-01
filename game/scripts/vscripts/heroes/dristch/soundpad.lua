@@ -1,7 +1,7 @@
 dristch_soundpad = class({})
 LinkLuaModifier( "modifier_dristch_soundpad", "heroes/dristch/modifier_dristch_soundpad", LUA_MODIFIER_MOTION_NONE )
 LinkLuaModifier( "modifier_dristch_soundpad_slow", "heroes/dristch/modifier_dristch_soundpad_slow", LUA_MODIFIER_MOTION_NONE )
-
+	
 --------------------------------------------------------------------------------
 -- Ability Start
 function dristch_soundpad:OnSpellStart()
