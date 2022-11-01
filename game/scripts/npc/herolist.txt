@@ -1,0 +1,10 @@
+"CustomHeroList"
+{
+	"npc_dota_hero_hoodwink" 				"1"
+	"npc_dota_hero_axe"					"1"
+	"npc_dota_hero_pudge"					"1"
+	"npc_dota_hero_juggernaut"				"1"
+	"npc_dota_hero_razor"					"1"
+	"npc_dota_hero_earth_spirit"				"1"
+	"npc_dota_hero_ogre_magi"				"1"
+}

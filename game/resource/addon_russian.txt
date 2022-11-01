@@ -1,0 +1,32 @@
+"lang"
+{
+    "Language"    "Russian"
+    "Tokens"
+{
+"addon_game_name"    "anime party"
+
+"DOTA_Tooltip_ability_vitalik_naorat"    "НАОРАТЬ"
+"DOTA_Tooltip_ability_vitalik_naorat_Description"    "Виталик кричит на своих врагов матом, так как испытывает к ним безпочвенную ненависть."
+"DOTA_Tooltip_ability_vitalik_naorat_area_of_effect"    "РАДИУС:"
+
+"DOTA_Tooltip_ability_vitalik_impact"    "ИМПАКТ"
+"DOTA_Tooltip_ability_vitalik_impact_Description"    "Виталик вносит невороятный импакт своей игрой, провоцируя всех врагов атаковать себя"
+"DOTA_Tooltip_ability_vitalik_impact_duration"    "ДЛИТЕЛЬНОСТЬ:"
+"DOTA_Tooltip_ability_vitalik_impact_bonus_armor"    "ДОП.БРОНЯ:"
+"DOTA_Tooltip_ability_vitalik_impact_radius"    "РАДИУС:"
+
+"DOTA_Tooltip_ability_vitalik_ne_pidor"    "НЕ ПИДОР"
+"DOTA_Tooltip_ability_vitalik_ne_pidor_Description"    "Все пидорасы, которые бьют Виталика, не могут пробить его жопу, так как она защищена от таких людей."
+"DOTA_Tooltip_ability_vitalik_ne_pidor_damage_reduction"    "УМЕНЬШЕНИЕ ВХОДЯЩЕГО УРОНА:"
+"DOTA_Tooltip_ability_vitalik_ne_pidor_damage_cleanse"    "ПОРОГ ВХОДЯЩЕГО УРОНА:"
+"DOTA_Tooltip_ability_vitalik_ne_pidor_damage_reset_interval"    "ИНТЕРВАЛ:"
+
+"DOTA_Tooltip_ability_vitalik_oskorblenie"    "ОСКОРБЛЕНИЕ"
+"DOTA_Tooltip_ability_vitalik_oskorblenie_Description"    "Виталик оскорбляет врага, нанося ему нехилый урон"
+"DOTA_Tooltip_ability_vitalik_oskorblenie_damage"    "УРОН:"
+"DOTA_Tooltip_ability_vitalik_oskorblenie_debuff_duration"    "ВРЕМЯ ДО УРОНА:"
+
+
+
+}
+}

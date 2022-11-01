@@ -1,0 +1,76 @@
+"DOTAAbilities"
+{
+	//=================================================================================================================
+	// Queen of Pain: Scream of Pain (Lua version)
+	//=================================================================================================================
+	"vitalik_naorat"
+	{
+		// Ability Technical Aspect
+		// base script folder	: scripts/vscripts
+		// base texture folder	: resource/flash3/images/spellicons
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/vitalik/naorat.lua"
+		"AbilityTextureName"			"vitalik/naorat"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+		"AOERadius"                     "400"
+		"precache"
+		{
+			"soundfile"	"soundevents/vitalik.vsndevts"
+			"particle"	"particles/units/heroes/hero_queenofpain/queen_scream_of_pain.vpcf"
+			"particle"	"particles/units/heroes/hero_queenofpain/queen_scream_of_pain_owner.vpcf"
+		}
+		
+		"radius"						"400"
+		"Damage" 
+                {
+                        "Target"        "TARGET"
+                        "Type"          "DAMAGE_TYPE_MAGICAL"
+                        "Damage"        "%AbilityDamage"
+                }
+
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"400"
+		"AbilityCastPoint"				"0.0"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"9.0"
+		"AbilityManaCost"				"180 190 200 210"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"125 190 265 350"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"area_of_effect"		"400"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"400"	
+			}
+		}
+	}
+}

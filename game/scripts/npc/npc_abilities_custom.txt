@@ -1,0 +1,7 @@
+"DOTAAbilities"
+{
+}
+#base "../vscripts/heroes/vitalik/impact.txt"
+#base "../vscripts/heroes/vitalik/naorat.txt"
+#base "../vscripts/heroes/vitalik/ne_pidor.txt"
+#base "../vscripts/heroes/vitalik/oskorblenie.txt"
