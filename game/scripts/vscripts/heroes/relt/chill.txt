@@ -7,10 +7,15 @@
         "MaxLevel"		                "4"
         "AbilityTextureName"            "relt/chill"
 
-        "AbilityBehavior"		        "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityBehavior"		        "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
         "AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
         "AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
         "AbilityUnitDamageType"			"DAMAGE_TYPE_NONE"
+
+        "precache"
+        {
+            "soundfile"                 "soundevents/relt.vsndevts"
+        }
 
 
 		// Ability Resource
@@ -28,11 +33,16 @@
 
         "OnSpellStart"
         {
+        "FireSound"
+        {
+            "EffectName"    "relt_chill"
+            "Target"         "CASTER"
+        }
             "RunScript"
             {
                 "ScriptFile"	"heroes/relt/chill.lua"
                 "Function"		"Chill"
-                "Target"		"CASTER"
+                "Target"		"TARGET"
             }
         }
     }

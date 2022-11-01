@@ -104,17 +104,19 @@ end
 -- Graphics & Animations
 function modifier_dristch_soundpad:PlayEffects( radius )
 	-- Get Resources
-	local particle_cast = "particles/units/heroes/hero_sandking/sandking_epicenter.vpcf"
-	local particle_cast2 = "particles/units/heroes/hero_sandking/sandking_epicenter_ring.vpcf"
+	local particle_cast = "scripts/vscripts/particles/rubick_blackhole_neo.vpcf_c"
+	local particle_cast2 = "scripts/vscripts/particles/rubick_blackhole_neo.vpcf_c"
 
 	-- Create Particle
 	-- local effect_cast = ParticleManager:CreateParticle( particle_cast, PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
-	local effect_cast = assert(loadfile("lua_abilities/rubick_spell_steal_lua/rubick_spell_steal_lua_arcana"))(self, particle_cast, PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
+	local effect_cast = assert(loadfile("particles/rubick_blackhole_neo.vpcf_c))(self, particle_cast, PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
 	ParticleManager:SetParticleControl( effect_cast, 1, Vector( radius, radius, radius ) )
 	ParticleManager:ReleaseParticleIndex( effect_cast )
 
 	-- local effect_cast = ParticleManager:CreateParticle( particle_cast2, PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
-	local effect_cast = assert(loadfile("lua_abilities/rubick_spell_steal_lua/rubick_spell_steal_lua_arcana"))(self, particle_cast2, PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
+	local effect_cast = assert(loadfile("scripts/vscripts/particles/rubick_blackhole_neo.vpcf_c"))(self, particle_cast2, PATTACH_ABSORIGIN_FOLLOW, self:GetParent() )
 	ParticleManager:SetParticleControl( effect_cast, 1, Vector( radius, radius, radius ) )
 	ParticleManager:ReleaseParticleIndex( effect_cast )
+	lightningBolt = ParticleManager:CreateParticle("scripts/vscripts/particles/rubick_blackhole_neo.vpcf_c", PATTACH_ABSORIGIN_FOLLOW, caster)
+	ParticleManager:SetParticleControl(lightningBolt,1,Vector(target:GetAbsOrigin().x,target:GetAbsOrigin().y,target:GetAbsOrigin().z+((target:GetBoundingMaxs().z - target:GetBoundingMins().z)/2)))	
 end
