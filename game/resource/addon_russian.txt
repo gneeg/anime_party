@@ -26,7 +26,14 @@
 "DOTA_Tooltip_ability_vitalik_oskorblenie_damage"    "УРОН:"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_debuff_duration"    "ВРЕМЯ ДО УРОНА:"
 
-
+// ******************** HEROES ********************
+    "npc_dota_hero_hoodwink"                "RELT"
+    "npc_dota_hero_axe"                     "VITALIK"
+    "npc_dota_hero_pudge"                   "BAIR"
+    "npc_dota_hero_juggernaut"              "RAIN"
+    "npc_dota_hero_razor"                   "DRISTCH"
+    "npc_dota_hero_earth_spirit"            "EDUARD"
+    "npc_dota_hero_ogre_magi"               "NASTYA"
 
 }
 }
