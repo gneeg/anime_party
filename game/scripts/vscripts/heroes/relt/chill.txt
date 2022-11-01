@@ -1,0 +1,39 @@
+"DOTAAbilities" 
+{
+    "relt_chill"
+    {
+        "BaseClass"		                "ability_datadriven"
+        "AbilityTextureName"		    "ability_name"
+        "MaxLevel"		                "4"
+        "AbilityTextureName"            "relt/chill"
+
+        "AbilityBehavior"		        "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitDamageType"			"DAMAGE_TYPE_NONE"
+
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"9.0"
+
+        "AbilitySpecial"
+        {
+            "01"
+            {
+                "var_type"          "FIELD_INTEGER"
+                "restore_mana"      "100 150 200 250"
+            }
+        }
+
+        "OnSpellStart"
+        {
+            "RunScript"
+            {
+                "ScriptFile"	"heroes/relt/chill.lua"
+                "Function"		"Chill"
+                "Target"		"CASTER"
+            }
+        }
+    }
+}
