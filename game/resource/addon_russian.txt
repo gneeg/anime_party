@@ -27,6 +27,11 @@
 "DOTA_Tooltip_ability_vitalik_oskorblenie_damage"    "УРОН:"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_debuff_duration"    "ВРЕМЯ ДО УРОНА:"
 
+"DOTA_Tooltip_ability_dristch_bistro_begat"    "БЫСТРО БЕГАТЬ"
+"DOTA_Tooltip_ability_dristch_bistro_begat_Description"    "Назар всегда занят, ему нужно быстро двигаться что бы выполнить все свои дела"
+"DOTA_Tooltip_ability_dristch_bistro_begat_self_movement_speed_pct"    "%СКОРОСТЬ:"
+
+
 // ******************** HEROES ********************
     "npc_dota_hero_hoodwink"                "RELT"
     "npc_dota_hero_axe"                     "VITALIK"
