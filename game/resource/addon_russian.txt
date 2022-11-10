@@ -31,6 +31,11 @@
 "DOTA_Tooltip_ability_dristch_bistro_begat_Description"    "Назар всегда занят, ему нужно быстро двигаться что бы выполнить все свои дела"
 "DOTA_Tooltip_ability_dristch_bistro_begat_self_movement_speed_pct"    "%СКОРОСТЬ:"
 
+"DOTA_Tooltip_ability_rain_uebator"    "ПИЗДАНУТЬ СО ВСЕЙ ДУРИ"
+"DOTA_Tooltip_ability_rain_uebator_Description"    "Артём заебался сидеть без урона, поэтому у него есть скрытая техника пиздануть по затылку."
+"DOTA_Tooltip_ability_rain_uebator_bonus_damage"    "УРОН:"
+"DOTA_Tooltip_ability_rain_uebator_chance"           "ШАНС:"   
+
 
 // ******************** HEROES ********************
     "npc_dota_hero_hoodwink"                "RELT"
