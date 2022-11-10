@@ -1,24 +1,31 @@
 "DOTAAbilities"
 {
 	//=================================================================================================================
-	// Razor: Storm Surge (Lua version)
+	// Anti-mage: Spell Shield
 	//=================================================================================================================
-	"dristch_bistro_begat"
+	"dristch_magia"
 	{
 		// Ability Technical Aspect
 		// base script folder	: scripts/vscripts
 		// base texture folder	: resource/flash3/images/spellicons
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"						"ability_lua"
-		"ScriptFile"					"heroes/dristch/bistro_begat"
-		"AbilityTextureName"			"dristch/bistro"
+		"ScriptFile"					"heroes/dristch/magia"
+		"AbilityTextureName"			"dristch/magia"
 		"FightRecapLevel"				"1"
-		"MaxLevel"						"3"
+		"MaxLevel"						"4"
+		"HasScepterUpgrade"				"1"
 
-		"HasShardUpgrade"				"1"
-		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_antimage.vsndevts"
+			"particle"	"particles/units/heroes/hero_antimage/antimage_spellshield.vpcf"
+			"particle"	"particles/units/heroes/hero_antimage/antimage_spellshield_reflect.vpcf"
+		}
+
 		// Ability General
 		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
 		// Ability Casting
@@ -26,6 +33,7 @@
 
 		// Ability Resource
 		//-------------------------------------------------------------------------------------------------------------
+	
 
 		// Damage
 		//-------------------------------------------------------------------------------------------------------------
@@ -37,7 +45,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"self_movement_speed_pct"	"33 66 100 "
+				"bonus_resist_pct"		"25 50 75 100"
 			}
 		}
 	}

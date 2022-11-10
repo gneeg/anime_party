@@ -23,7 +23,9 @@
 // HERO: dristch
 //=================================================================================================================
 #base "../vscripts/heroes/dristch/bistro_begat.txt"
-#base "../vscripts/heroes/dristch/soundpad.txt"
+#base "../vscripts/heroes/dristch/armored.txt"
+#base "../vscripts/heroes/dristch/magia.txt"
+#base "../vscripts/heroes/dristch/heranut.txt"
 
 
 //=================================================================================================================

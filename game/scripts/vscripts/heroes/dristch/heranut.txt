@@ -1,24 +1,27 @@
 "DOTAAbilities"
 {
 	//=================================================================================================================
-	// Razor: Storm Surge (Lua version)
+	// Juggernaut: Blade Dance (Lua version)
 	//=================================================================================================================
-	"dristch_bistro_begat"
+	"dristch_heranut"
 	{
 		// Ability Technical Aspect
 		// base script folder	: scripts/vscripts
 		// base texture folder	: resource/flash3/images/spellicons
 		//-------------------------------------------------------------------------------------------------------------
 		"BaseClass"						"ability_lua"
-		"ScriptFile"					"heroes/dristch/bistro_begat"
-		"AbilityTextureName"			"dristch/bistro"
+		"ScriptFile"					"heroes/dristch/heranut"
+		"AbilityTextureName"			"dristch/bonk"
 		"FightRecapLevel"				"1"
-		"MaxLevel"						"3"
-
-		"HasShardUpgrade"				"1"
+		"MaxLevel"						"1"
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_juggernaut.vsndevts"
+		}
 		
 		// Ability General
 		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
 		// Ability Casting
@@ -36,8 +39,13 @@
 		{
 			"01"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"self_movement_speed_pct"	"33 66 100 "
+				"var_type"					"FIELD_INTEGER"
+				"blade_dance_crit_chance"	"3"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_dance_crit_mult"		"10000"
 			}
 		}
 	}

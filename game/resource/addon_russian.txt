@@ -31,10 +31,6 @@
 "DOTA_Tooltip_ability_vitalik_oskorblenie_debuff_duration"    "ВРЕМЯ ДО УРОНА:"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_cooldown"             "ПЕРЕЗАРЯДКА:"
 
-"DOTA_Tooltip_ability_dristch_bistro_begat"    "БЫСТРО БЕГАТЬ"
-"DOTA_Tooltip_ability_dristch_bistro_begat_Description"    "Назар всегда занят, ему нужно быстро двигаться что бы выполнить все свои дела"
-"DOTA_Tooltip_ability_dristch_bistro_begat_self_movement_speed_pct"    "%СКОРОСТЬ:"
-
 "DOTA_Tooltip_ability_rain_uebator"    "ПИЗДАНУТЬ СО ВСЕЙ ДУРИ"
 "DOTA_Tooltip_ability_rain_uebator_Description"    "Артём заебался сидеть без урона, поэтому у него есть скрытая техника пиздануть по затылку."
 "DOTA_Tooltip_ability_rain_uebator_bonus_damage"    "УРОН:"
@@ -56,6 +52,24 @@
 "DOTA_Tooltip_ability_rain_crit_Description"    "Артём может критануть своей атакой, она выломает все кости врагу."
 "DOTA_Tooltip_ability_rain_crit_blade_dance_crit_chance"    %ШАНС КРИТИЧЕСКОЙ АТАКИ:"      
 "DOTA_Tooltip_ability_rain_crit_blade_dance_crit_mult"    "КРИТИЧЕСКИЙ УРОН:"
+
+"DOTA_Tooltip_ability_dristch_heranut"    "ХЕРАНУТЬ"
+"DOTA_Tooltip_ability_dristch_heranut_Description"    "Назар хоть и дрыщ, но может знатно уебать.Правда это не всегда получается."
+"DOTA_Tooltip_ability_dristch_heranut_blade_dance_crit_chance"    %ШАНС КРИТИЧЕСКОЙ АТАКИ:"      
+"DOTA_Tooltip_ability_dristch_heranut_blade_dance_crit_mult"    "%КРИТИЧЕСКИЙ УРОН:"
+
+"DOTA_Tooltip_ability_dristch_magia"    "ВАША МАГИЯ - ХУЙНЯ"
+"DOTA_Tooltip_ability_dristch_magia_Description"    "Назар не воспринимает магию как что то серьёзное, поэтому он ее не чувствует."
+"DOTA_Tooltip_ability_dristch_magia_bonus_resist_pct"    "%СОПРОТИВЛЕНИЕ МАГИИ:"
+
+"DOTA_Tooltip_ability_dristch_bistro_begat"    "БЫСТРЫЙ ШАГ"
+"DOTA_Tooltip_ability_dristch_bistro_begat_Description"    "Назар научился быстро ходить своими походами в магаз."
+"DOTA_Tooltip_ability_dristch_bistro_begat_self_movement_speed_pct"    "%ДОП МС:" 
+
+"DOTA_Tooltip_ability_dristch_armored"    "АРМИРОВАННЫЙ )"
+"DOTA_Tooltip_ability_dristch_armored_Description"    "Назар конкретно заармировался, его армор и хп реген увеличились."
+"DOTA_Tooltip_ability_dristch_armored_bonus_health_regen"    "ХП РЕГЕН:"
+"DOTA_Tooltip_ability_dristch_armored_bonus_armor"               "ДОП АРМОР"
 
 // ******************** HEROES ********************
     "npc_dota_hero_hoodwink"                "RELT"
