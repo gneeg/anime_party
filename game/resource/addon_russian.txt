@@ -8,12 +8,14 @@
 "DOTA_Tooltip_ability_vitalik_naorat"    "НАОРАТЬ"
 "DOTA_Tooltip_ability_vitalik_naorat_Description"    "Виталик кричит на своих врагов матом, так как испытывает к ним безпочвенную ненависть."
 "DOTA_Tooltip_ability_vitalik_naorat_area_of_effect"    "РАДИУС:"
+"DOTA_Tooltip_ability_vitalik_naorat_cooldown"             "ПЕРЕЗАРЯДКА:"
 
 "DOTA_Tooltip_ability_vitalik_impact"    "ИМПАКТ"
 "DOTA_Tooltip_ability_vitalik_impact_Description"    "Виталик вносит невороятный импакт своей игрой, провоцируя всех врагов атаковать себя"
 "DOTA_Tooltip_ability_vitalik_impact_duration"    "ДЛИТЕЛЬНОСТЬ:"
 "DOTA_Tooltip_ability_vitalik_impact_bonus_armor"    "ДОП.БРОНЯ:"
 "DOTA_Tooltip_ability_vitalik_impact_radius"    "РАДИУС:"
+"DOTA_Tooltip_ability_vitalik_impact_cooldown"             "ПЕРЕЗАРЯДКА:"
 "DOTA_Tooltip_modifier_berserkers_call_caster_datadriven"	"ААААААААААААААААААААААА"
 
 "DOTA_Tooltip_ability_vitalik_ne_pidor"    "НЕ ПИДОР"
@@ -21,11 +23,13 @@
 "DOTA_Tooltip_ability_vitalik_ne_pidor_damage_reduction"    "УМЕНЬШЕНИЕ ВХОДЯЩЕГО УРОНА:"
 "DOTA_Tooltip_ability_vitalik_ne_pidor_damage_cleanse"    "ПОРОГ ВХОДЯЩЕГО УРОНА:"
 "DOTA_Tooltip_ability_vitalik_ne_pidor_damage_reset_interval"    "ИНТЕРВАЛ:"
+"DOTA_Tooltip_ability_vitalik_ne_pidor_cooldown"             "ПЕРЕЗАРЯДКА:"
 
 "DOTA_Tooltip_ability_vitalik_oskorblenie"    "ОСКОРБЛЕНИЕ"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_Description"    "Виталик оскорбляет врага, нанося ему нехилый урон"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_damage"    "УРОН:"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_debuff_duration"    "ВРЕМЯ ДО УРОНА:"
+"DOTA_Tooltip_ability_vitalik_oskorblenie_cooldown"             "ПЕРЕЗАРЯДКА:"
 
 "DOTA_Tooltip_ability_dristch_bistro_begat"    "БЫСТРО БЕГАТЬ"
 "DOTA_Tooltip_ability_dristch_bistro_begat_Description"    "Назар всегда занят, ему нужно быстро двигаться что бы выполнить все свои дела"
@@ -34,8 +38,24 @@
 "DOTA_Tooltip_ability_rain_uebator"    "ПИЗДАНУТЬ СО ВСЕЙ ДУРИ"
 "DOTA_Tooltip_ability_rain_uebator_Description"    "Артём заебался сидеть без урона, поэтому у него есть скрытая техника пиздануть по затылку."
 "DOTA_Tooltip_ability_rain_uebator_bonus_damage"    "УРОН:"
-"DOTA_Tooltip_ability_rain_uebator_chance"           "ШАНС:"   
+"DOTA_Tooltip_ability_rain_uebator_chance"           "%ШАНС:"
+"DOTA_Tooltip_ability_rain_uebator_cooldown"             "ПЕРЕЗАРЯДКА:"
 
+"DOTA_Tooltip_ability_rain_zadushit"    "РАЗЪЕБАШИТЬ ЧЕРЕПУШКУ"
+"DOTA_Tooltip_ability_rain_zadushit_Description"    "Артём настолько сильно улучшил навыки кулачного боя на боксе, что может своим кулаком разъебашить голову опоненту."
+"DOTA_Tooltip_ability_rain_zadushit_buffed_attacks"    "ЧИСЛО АТАК:"
+"DOTA_Tooltip_ability_rain_zadushit_cooldown"             "ПЕРЕЗАРЯДКА:"
+"DOTA_Tooltip_ability_rain_zadushit_bonus_damage"    "УРОН:"
+
+"DOTA_Tooltip_ability_rain_dushnila"    "ЗАДУШИТЬ"
+"DOTA_Tooltip_ability_rain_dushnila_Description"    "Артём слишком душный, поэтому врагам сложно с ним находиться рядом."
+"DOTA_Tooltip_ability_rain_dushnila_presence_armor_reduction"    "СНИЖЕНИЕ АРМОРА:"      
+"DOTA_Tooltip_ability_rain_dushnila_presence_radius"    "РАДИУС:"
+
+"DOTA_Tooltip_ability_rain_crit"    "КРИТАНУТЬ ШО ПИЗДА"
+"DOTA_Tooltip_ability_rain_crit_Description"    "Артём может критануть своей атакой, она выломает все кости врагу."
+"DOTA_Tooltip_ability_rain_crit_blade_dance_crit_chance"    %ШАНС КРИТИЧЕСКОЙ АТАКИ:"      
+"DOTA_Tooltip_ability_rain_crit_blade_dance_crit_mult"    "КРИТИЧЕСКИЙ УРОН:"
 
 // ******************** HEROES ********************
     "npc_dota_hero_hoodwink"                "RELT"

@@ -30,5 +30,8 @@
 // HERO: rain
 //=================================================================================================================
 #base "../vscripts/heroes/rain/uebator.txt"
+#base "../vscripts/heroes/rain/zadushit.txt"
+#base "../vscripts/heroes/rain/dushnila.txt"
+#base "../vscripts/heroes/rain/crit.txt"
 
 
