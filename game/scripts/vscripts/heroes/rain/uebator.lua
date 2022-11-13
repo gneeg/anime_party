@@ -7,3 +7,8 @@ LinkLuaModifier( "modifier_generic_bashed_lua", "lua_abilities/generic/modifier_
 function rain_uebator:GetIntrinsicModifierName()
 	return "modifier_rain_uebator"
 end
+function rain_uebator:PlayEffects( location )
+	-- Get Resources
+	local sound_cast = "rain_uebator"
+	EmitSoundOn( sound_cast, self:GetCaster() )
+end

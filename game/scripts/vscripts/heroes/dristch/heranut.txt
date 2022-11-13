@@ -40,7 +40,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"blade_dance_crit_chance"	"3"
+				"blade_dance_crit_chance"	"2"
 			}
 			"02"
 			{

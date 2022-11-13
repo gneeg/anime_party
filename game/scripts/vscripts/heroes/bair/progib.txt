@@ -1,0 +1,87 @@
+"DOTAAbilities"
+{
+	//=================================================================================================================
+	// Marci: Dispose (Lua version)
+	//=================================================================================================================
+	"bair_progib"
+	{
+		// Ability Technical Aspect
+		// base script folder	: scripts/vscripts
+		// base texture folder	: resource/flash3/images/spellicons
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/bair/progib"
+		"AbilityTextureName"			"bair/progib"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"3"
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.2"
+		"AbilityCastRange"				"250"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"30 25 20"
+		"AbilityManaCost"				"142"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"landing_radius"	"275"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"air_duration"		"0.5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"air_height"		"150"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"pull_offset"		"75"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"throw_distance_behind"	"228"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"pull_angle"		"230"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stun_duration"			"2 3 4"
+			}
+			"08"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"impact_damage"		"300 400 500"
+			}
+		}
+	}
+}

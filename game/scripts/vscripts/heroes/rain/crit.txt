@@ -16,7 +16,7 @@
 		"MaxLevel"						"4"
 		"precache"
 		{
-			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_juggernaut.vsndevts"
+			"soundfile"	"soundevents/rain.vsndevts"
 		}
 		
 		// Ability General
@@ -45,7 +45,7 @@
 			"02"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"blade_dance_crit_mult"		"110 120 130 140"
+				"blade_dance_crit_mult"		"150 160 170 180"
 			}
 		}
 	}

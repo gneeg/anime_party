@@ -6,3 +6,8 @@ LinkLuaModifier( "modifier_rain_crit", "heroes/rain/modifier_rain_crit", LUA_MOD
 function rain_crit:GetIntrinsicModifierName()
 	return "modifier_rain_crit"
 end
+function rain_crit:PlayEffects( location )
+	-- Get Resources
+	local sound_cast = "rain_crit"
+	EmitSoundOn( sound_cast, self:GetCaster() )
+end

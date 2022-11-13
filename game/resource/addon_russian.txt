@@ -31,6 +31,9 @@
 "DOTA_Tooltip_ability_vitalik_oskorblenie_debuff_duration"    "ВРЕМЯ ДО УРОНА:"
 "DOTA_Tooltip_ability_vitalik_oskorblenie_cooldown"             "ПЕРЕЗАРЯДКА:"
 
+
+
+
 "DOTA_Tooltip_ability_rain_uebator"    "ПИЗДАНУТЬ СО ВСЕЙ ДУРИ"
 "DOTA_Tooltip_ability_rain_uebator_Description"    "Артём заебался сидеть без урона, поэтому у него есть скрытая техника пиздануть по затылку."
 "DOTA_Tooltip_ability_rain_uebator_bonus_damage"    "УРОН:"
@@ -51,7 +54,10 @@
 "DOTA_Tooltip_ability_rain_crit"    "КРИТАНУТЬ ШО ПИЗДА"
 "DOTA_Tooltip_ability_rain_crit_Description"    "Артём может критануть своей атакой, она выломает все кости врагу."
 "DOTA_Tooltip_ability_rain_crit_blade_dance_crit_chance"    %ШАНС КРИТИЧЕСКОЙ АТАКИ:"      
-"DOTA_Tooltip_ability_rain_crit_blade_dance_crit_mult"    "КРИТИЧЕСКИЙ УРОН:"
+"DOTA_Tooltip_ability_rain_crit_blade_dance_crit_mult"    "%КРИТИЧЕСКИЙ УРОН:"
+
+
+
 
 "DOTA_Tooltip_ability_dristch_heranut"    "ХЕРАНУТЬ"
 "DOTA_Tooltip_ability_dristch_heranut_Description"    "Назар хоть и дрыщ, но может знатно уебать.Правда это не всегда получается."
@@ -71,14 +77,95 @@
 "DOTA_Tooltip_ability_dristch_armored_bonus_health_regen"    "ХП РЕГЕН:"
 "DOTA_Tooltip_ability_dristch_armored_bonus_armor"               "ДОП АРМОР"
 
+
+
+    "DOTA_Tooltip_ability_eduard_patriot"    "ПАТРИОТИЗМ"
+    "DOTA_Tooltip_ability_eduard_patriot_Description"    "Дмитрий Эдуардович верен своей Родине до глубины души.Каждый раз когда Дмитрий Эдуардович слышит великолепие нот и предложений, называемых гимн Российской Федерации, его дух воспылает и он готов на все."
+    "DOTA_Tooltip_ability_eduard_patriot_radius"    "РАДИУС:"
+    "DOTA_Tooltip_ability_eduard_patriot_duration"               "ДЛИТЕЛЬНОСТЬ:"
+    "DOTA_Tooltip_ability_eduard_patriot_cooldown"             "ПЕРЕЗАРЯДКА:"
+
+    "DOTA_Tooltip_ability_eduard_defend"    "ЗАЩИТА ОТ ХЕЙТА"
+    "DOTA_Tooltip_ability_eduard_defend_Description"    "Дмитрий Эдуардович не вопринимает хейт, вовсе, поэтому он его полностью игнорирует. На каждый удар врага у Дмитрия есть аргумент - это его невосприятие к хейту."
+    "DOTA_Tooltip_ability_eduard_defend_bonus_armor"    "ДОП АРМОР:"
+    "DOTA_Tooltip_ability_eduard_defend_bonus_hp_regen"               "ХП РЕГЕН:"
+    "DOTA_Tooltip_ability_eduard_defend_stack_limit"             "МАКСИМУМ СТАКОВ:"
+
+    "DOTA_Tooltip_ability_eduard_rekrut"    "ПРОКЛЯТИЕ РЕКРУТА"
+    "DOTA_Tooltip_ability_eduard_rekrut_Description"    "Дмитрий Эдуардович думает, что он играет лучше чем рекрут, но на самом деле он проклят.Проклятье Дмитрия Эдуардовича распространяется не только на него, но и на тех кто играет с ним, даже на врагов."
+    "DOTA_Tooltip_ability_eduard_rekrut_speed_bonus"    "%УМЕНЬШЕНИЕ МСА:"
+    "DOTA_Tooltip_ability_eduard_rekrut_radius"    "РАДИУС:"
+
+    "DOTA_Tooltip_ability_eduard_prokl"    "ПРОКЛЯТИЕ ДОЛБОЕБИЗМА"
+    "DOTA_Tooltip_ability_eduard_prokl_Description"    "Дмитрий Эдуардович думает, что он играет лучше чем долбаеб, но на самом деле он проклят.Проклятье Дмитрия Эдуардовича распространяется на всех врагов."
+    "DOTA_Tooltip_ability_eduard_prokl_mana_cost_per_second"    "ЗАТРАТЫ МАНЫ В СЕКУНДУ:"
+    "DOTA_Tooltip_ability_eduard_prokl_radius"    "РАДИУС:"
+    "DOTA_Tooltip_ability_eduard_prokl_damage"    "УРОН:"
+
+
+
+
+"DOTA_Tooltip_ability_bair_progib"                              "КИНУТЬ НА ПРОГИБ"
+"DOTA_Tooltip_ability_bair_progib_Description"                  "В свои лучшие времена Андрей ходил на борьбу, там он научился делать лучшие броски на прогиб в истории."
+"DOTA_Tooltip_ability_bair_progib_throw_distance_behind"        "ДАЛЬНОСТЬ БРОСКА:"
+"DOTA_Tooltip_ability_bair_progib_stun_duration"                "ДЛИТЕЛЬНОСТЬ СТАНА:"
+"DOTA_Tooltip_ability_bair_progib_impact_damage"                "УРОН:"
+
+"DOTA_Tooltip_ability_bair_terpila"                             "ТЕРПИЛА"
+"DOTA_Tooltip_ability_bair_terpila_Description"                 "Андрей тот ещё терпила, но иногда он высвобождает всю накопленную злость."
+"DOTA_Tooltip_ability_bair_terpila_bonus_damage"                "ПАССИВНЫЙ УРОН:"
+"DOTA_Tooltip_ability_bair_terpila_stun_duration"               "ДЛИТЕЛЬНОСТЬ СТАНА:"
+"DOTA_Tooltip_ability_bair_terpila_bonus_damage_per_stack"      "ДОП УРОН ЗА СТАК:"
+"DOTA_Tooltip_ability_bair_terpila_damage_limit"                "ЛИМИТ УРОНА:"
+"DOTA_Tooltip_ability_bair_terpila_roared_bonus_armor"          "ДОП АРМОР ЗА СТАК:"
+"DOTA_Tooltip_ability_bair_terpila_roar_duration"               "ДЛИТЕЛЬНОСТЬ ДОП УРОНА И АРМОРА:"
+"DOTA_Tooltip_ability_bair_terpila_stack_duration"              "ДЛИТЕЛЬНОСТЬ СТАКОВ:"
+"DOTA_Tooltip_ability_bair_terpila_stack_limit"                 "ЛИМИТ СТАКОВ:"
+
+"DOTA_Tooltip_ability_bair_usil"                                "УСИЛЕНИЕ"
+"DOTA_Tooltip_ability_bair_usil_Description"                    "Андрей качался на протяжении всей жизни, иногда он может включить турбо режим и убежать нахуй"
+"DOTA_Tooltip_ability_bair_usil_movement_speed"                 "%ДОП МС:"
+"DOTA_Tooltip_ability_bair_usil_status_resistance"              "%СТАТУС РЕЗИСТ:"
+"DOTA_Tooltip_ability_bair_usil_duration"                       "ДЛИТЕЛЬНОСТЬ:"
+
+"DOTA_Tooltip_ability_bair_razgon"                              "РАЗГОН"
+"DOTA_Tooltip_ability_bair_razgon_Description"                  "Андрей становится злым и начинает пизить людей своей дубиной"
+"DOTA_Tooltip_ability_bair_razgon_movement_speed"               "ДОП МС:"
+"DOTA_Tooltip_ability_bair_razgon_base_attack_time"                  "БАЗОВАЯ СКОРОСТЬ АТАКИ:"
+"DOTA_Tooltip_ability_bair_razgon_duration"                     "ДЛИТЕЛЬНОСТЬ:"
+"DOTA_Tooltip_ability_bair_razgon_bonus_health_regen"           "ХП РЕГЕН:"
+
+
+"DOTA_Tooltip_ability_nastya_vezuha"                             "ВЕЗУХА"
+"DOTA_Tooltip_ability_nastya_vezuha_Description"                 "Настя напрягает бога доты чтобы он мультикастил её скилы и айтемы."
+"DOTA_Tooltip_ability_nastya_vezuha_multicast_2_times"           "%ШАНС НА 2Х:"
+"DOTA_Tooltip_ability_nastya_vezuha_multicast_3_times"           "%ШАНС НА 3Х:"
+"DOTA_Tooltip_ability_nastya_vezuha_multicast_4_times"           "%ШАНС НА 4Х:"
+
+"DOTA_Tooltip_ability_nastya_zoloto"                             "ПОФАРМИТЬ"
+"DOTA_Tooltip_ability_nastya_zoloto_Description"                 "Настя любить зарабатывать золото, но Артем ей не дает этого, поэтому она синтезирует больше золота из врагов и рун."
+"DOTA_Tooltip_ability_nastya_zoloto_bonus_gold_cap"              "ЧИСЛО СТАКОВ:"
+"DOTA_Tooltip_ability_nastya_zoloto_bounty_multiplier"           "МНОЖИТЕЛЬ ЗОЛОТА С РУН БОГАТСТВА:"
+"DOTA_Tooltip_ability_nastya_zoloto_bonus_gold"                  "ДОП ЗОЛОТО:"
+
+"DOTA_Tooltip_ability_nastya_midas"                              "МИДАС"
+"DOTA_Tooltip_ability_nastya_midas_Description"                 "Настя любит пофармить, поэтому бог доты даровал ей встроенный мидас"
+"DOTA_Tooltip_ability_nastya_midas_bonus_gold"                  "ЗОЛОТО:"
+"DOTA_Tooltip_ability_nastya_midas_regen"                       "ДОП РЕГЕН:"
+
+"DOTA_Tooltip_ability_nastya_or"                                "ИСПУГ"
+"DOTA_Tooltip_ability_nastya_or_Description"                    "Настя очень сильно боится страшных звуков, скримеров и страшилок, поэтому каждый раз когда кто-то ее пугает,она начинает кричать. Своим громким криком она пугает врага, нанося ему урон."
+"DOTA_Tooltip_ability_nastya_or_radius"                         "РАДИУС:"
+"DOTA_Tooltip_ability_nastya_or_AbilityDamage"                       "УРОН:"
+
 // ******************** HEROES ********************
-    "npc_dota_hero_hoodwink"                "RELT"
-    "npc_dota_hero_axe"                     "VITALIK"
-    "npc_dota_hero_pudge"                   "BAIR"
-    "npc_dota_hero_juggernaut"              "RAIN"
-    "npc_dota_hero_razor"                   "DRISTCH"
-    "npc_dota_hero_earth_spirit"            "EDUARD"
-    "npc_dota_hero_ogre_magi"               "NASTYA"
+        "npc_dota_hero_hoodwink"                "RELT"
+        "npc_dota_hero_axe"                     "VITALIK"
+        "npc_dota_hero_ogre_magi"                   "BAIR"
+        "npc_dota_hero_juggernaut"              "RAIN"
+        "npc_dota_hero_pudge"                   "DRISTCH"
+        "npc_dota_hero_earth_spirit"            "EDUARD"
+        "npc_dota_hero_marci"               "NASTYA"
 
 }
 }

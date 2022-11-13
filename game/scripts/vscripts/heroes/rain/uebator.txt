@@ -16,7 +16,7 @@
 		"MaxLevel"						"3"
 		"precache"
 		{
-			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_slardar.vsndevts"
+			"soundfile"	"soundevents/rain.vsndevts"
 	//		"particle"	"particles/units/heroes/hero_<hero>/<hero>_<ability>.vpcf"
 		}
 		
@@ -49,7 +49,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"250 300 350"
+				"bonus_damage"			"400 450 500"
 			}
 			"03"
 			{
